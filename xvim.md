@@ -3,7 +3,7 @@
 ## Codesign
 
 ```bash
-security find-identity -p codesigning
+security find-identity -p codesigning # iPhone Distribution: Nathan Armstrong
 codesign -f -s <identity without quotes> -v /path/to/Xcode.app
 ```
 
