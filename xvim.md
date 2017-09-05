@@ -13,3 +13,9 @@ codesign -f -s <identity without quotes> -v /path/to/Xcode.app
 sudo xcode-select -s /path/to/Xcode.app
 make
 ```
+
+## Xcode UUID
+
+```
+defaults read /path/to/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
+```
